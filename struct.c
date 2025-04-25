@@ -18,4 +18,16 @@ int main()
     strcpy(Student1.surname, "Cardoso");
 
     printf(Student1.name);
+
+    while(1){
+        printf("teste");
+        break;
+    }
+
+    for(int i = 0; i < 5; i++){
+        printf("\n jax jax");
+        i++;
+    }
+
+    return 0;
 }
